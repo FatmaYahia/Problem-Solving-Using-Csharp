@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{821E321B-7202-4194-BEED-97986EE76E69}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Problem_Solving_Using_C_Sharp</RootNamespace>
+    <AssemblyName>Problem Solving Using C Sharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1 to N.cs" />
+    <Compile Include="Age in Days.cs" />
+    <Compile Include="Area of a Circle.cs" />
+    <Compile Include="Calculator.cs" />
+    <Compile Include="Capital or Small or Digit.cs" />
+    <Compile Include="Char.cs" />
+    <Compile Include="Comparison.cs" />
+    <Compile Include="Convert To Decimal 2.cs" />
+    <Compile Include="Coordinates of a Point.cs" />
+    <Compile Include="Difference.cs" />
+    <Compile Include="Digits Summation.cs" />
+    <Compile Include="Digits.cs" />
+    <Compile Include="Divisors.cs" />
+    <Compile Include="Easy Fibonacci.cs" />
+    <Compile Include="Even Numbers.cs" />
+    <Compile Include="Even, Odd, Positive and Negative.cs" />
+    <Compile Include="Factorial.cs" />
+    <Compile Include="First digit !.cs" />
+    <Compile Include="Fixed Password.cs" />
+    <Compile Include="Float or int.cs" />
+    <Compile Include="GCD.cs" />
+    <Compile Include="Hard Compare.cs" />
+    <Compile Include="Interval.cs" />
+    <Compile Include="Lowest Number.cs" />
+    <Compile Include="Lucky Array.cs" />
+    <Compile Include="Lucky Numbers.cs" />
+    <Compile Include="Mathematical Expression.cs" />
+    <Compile Include="Max and Min.cs" />
+    <Compile Include="Max Subarray.cs" />
+    <Compile Include="Max.cs" />
+    <Compile Include="Multiples.cs" />
+    <Compile Include="Multiplication table.cs" />
+    <Compile Include="Numbers Histogram.cs" />
+    <Compile Include="One Prime.cs" />
+    <Compile Include="Palindrome Array.cs" />
+    <Compile Include="Palindrome.cs" />
+    <Compile Include="Positions in array.cs" />
+    <Compile Include="Primes from 1 to n.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PUM.cs" />
+    <Compile Include="Pyramid.cs" />
+    <Compile Include="Replacement.cs" />
+    <Compile Include="Reversing.cs" />
+    <Compile Include="Searching.cs" />
+    <Compile Include="Sequence of Numbers and Sum.cs" />
+    <Compile Include="Shape1.cs" />
+    <Compile Include="Shape2.cs" />
+    <Compile Include="Shape3.cs" />
+    <Compile Include="Simple Calculator.cs" />
+    <Compile Include="Smallest Pair.cs" />
+    <Compile Include="Some Sums.cs" />
+    <Compile Include="Sort Numbers.cs" />
+    <Compile Include="Sorting.cs" />
+    <Compile Include="Sum Digits.cs" />
+    <Compile Include="Sum of Consecutive Odd Numbers.cs" />
+    <Compile Include="Summation from 1 to N.cs" />
+    <Compile Include="Summation.cs" />
+    <Compile Include="The Brothers.cs" />
+    <Compile Include="The last 2 digits.cs" />
+    <Compile Include="Three Numbers.cs" />
+    <Compile Include="Two intervals.cs" />
+    <Compile Include="Two numbers.cs" />
+    <Compile Include="Welcome for you with Conditions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
